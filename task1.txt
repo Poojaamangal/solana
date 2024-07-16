@@ -1,0 +1,16 @@
+Filter the Delinquent Text File: Identify and extract the necessary information from your delinquent text file 
+
+Set Path in Command Prompt (CMD): Open Command Prompt (CMD) and navigate (cd) to the directory where your Python scripts and filtered files are stored.
+
+Run Command to Generate Common Data: Execute the command to run your Python script get_full_info_delinquent.py (set the path in get_full_info_delinquent.py), which generates a common.xlsx file containing matched data based on required public IPs also i installed openpyxl 
+  command for install : pip install openpyxl
+ 
+Ping and Check Reachability: After generating common.xlsx, proceed to check the reachability of the listed IPs, also i installed tqdm
+      command for install : pip install tqdm
+
+Run Command to Check Reachability: Execute the ping_delinquent.py script to ping the IPs listed in common.xlsx and categorize them into reachable and unreachable IPs.
+
+This script  generates two Excel files:
+  reachable.xlsx containing reachable IPs.
+  unreachable.xlsx containing unreachable IPs.
+
