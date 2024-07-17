@@ -37,7 +37,3 @@ This repository contains scripts to process a delinquent text file, extract rele
    - `reachable.xlsx`: Contains reachable IPs.
    - `unreachable.xlsx`: Contains unreachable IPs.
 
-## Author
-
-- Your Name
-- Contact Information
