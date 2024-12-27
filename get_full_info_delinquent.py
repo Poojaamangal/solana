@@ -23,10 +23,8 @@ def process_keys(input_file, delinquent_file, output_file):
         key = row[2]  # Column F (0-indexed, so it's 5)
         if key in delinquent_keys:
             common_sheet.append(row)
-
-    # Save the common keys workbook
+ # Save the common keys workbook
     common_wb.save(output_file)
-xyzzzzzzzzzz
 input_file = "C:/Users/pooja/WORK/delinquent_workbench/testnet_managed.xlsx"
 delinquent_file = "C:/Users/pooja/WORK/delinquent_workbench/delinquent.txt"
 output_file = "C:/Users/pooja/WORK/delinquent_workbench/common.xlsx"
